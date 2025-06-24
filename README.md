@@ -84,10 +84,10 @@ final-frontend/
 
 📜 Available Scripts
 
-|Script|------------------|Description|
-|npm run dev|-------------|Start local development server|
-|npm run build|-----------|Build app for production|
-|npm run preview|---------|Preview production build locally|
-|npm run lint|------------|Run ESLint checks|
+|Script|----|--------------|Description|
+|npm run dev|Start local development server|
+|npm run build|Build app for production|
+|npm run preview|Preview production build locally|
+|npm run lint|Run ESLint checks|
 
 
