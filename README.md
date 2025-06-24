@@ -25,6 +25,49 @@ Using SSH:
 git clone git@github.com:migmadee/final-frontend.git
 git clone https://github.com/migmadee/final-frontend.git
 cd final-frontend
+
+2. Install Dependencies
+
+Ensure you have Node.js (v16 or higher) and npm installed.
+
+Install using npm:
+
+bash
+Copy code
+npm install
+Or using Yarn:
+
+bash
+Copy code
+yarn
+
+3. Run the Development Server
+Using npm:
+
+bash
+Copy code
+npm run dev
+Or using Yarn:
+
+bash
+Copy code
+yarn dev
+Then open your browser and visit:
+
+arduino
+Copy code
+http://localhost:5173
+4. Build for Production
+To generate a production-ready build:
+
+bash
+Copy code
+npm run build
+(Optional) To preview the production build locally:
+
+bash
+Copy code
+npm run preview
 📂 Project Structure
 final-frontend/
 ├── public/             # Static public assets
@@ -38,3 +81,13 @@ final-frontend/
 ├── package.json        # Project metadata and scripts
 ├── tsconfig.json       # TypeScript config
 └── vite.config.ts      # Vite configuration
+
+📜 Available Scripts
+
+|Script|------------------|Description|
+|npm run dev|-------------|Start local development server|
+|npm run build|-----------|Build app for production|
+|npm run preview|---------|Preview production build locally|
+|npm run lint|------------|Run ESLint checks|
+
+
